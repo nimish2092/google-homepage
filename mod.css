@@ -1,0 +1,132 @@
+.header{
+	float: right;
+	margin-right: 10px;
+}
+.menu {
+	text-decoration: none;
+	display: inline;
+	margin: 10px;
+}
+.menu>a{
+	text-decoration: none;
+	color:#666;
+	font-family: arial,sans-serif;
+	font-size: small;
+}
+.menu>a:hover{
+	text-decoration: underline;
+}
+.menu>img{
+	width: 35px;
+	height: 35px;
+	border-radius: 50%;
+}
+#notification {
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	background-color: #db4437;
+	display: inline-block;
+	font-size: 12px;
+    font-weight: bold;
+    line-height: 20px;
+	text-align: center;
+    padding: 0 2px;
+    font-family: arial,sans-serif;
+}
+#notification>a{
+	color:white;
+}
+#image{
+	width: 35px;
+	height: 35px;
+
+}
+
+/*Center content of the page*/
+
+#content {
+	clear: right;
+	padding-top: 147px;
+}
+#logo > img{
+	width: 290px;
+	height: 100px;
+	margin-left: 500px;
+}
+#logo{
+	
+}
+#input{
+	margin-top: 20px;
+}
+#input > input {
+	width: 550px;
+	height: 35px;
+	padding-left: 10px;
+	/*margin-left: -60px;
+	margin-top: -100px;*/ 
+	background-image: url('images/microphone.png');
+	background-repeat: no-repeat;
+	background-position: 530px,10px;
+	background-size: 15px,15px;
+	margin-left: 360px;
+	font: 16px arial,sans-serif;
+    line-height: 26px !important;
+    border:0.1px solid #a0a0a0;
+}
+.button{
+	display: inline-block;
+	margin-top: 20px;
+}
+.button>input{
+	border:1px solid #f2f2f2;
+	margin-top:20px;
+	height: 36px;
+    line-height: 27px;
+    background-color: #f2f2f2;
+    border-radius: 2px;
+    color: #757575;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    margin: 11px 4px;
+    min-width: 54px;
+    padding: 0 16px;
+    text-align: center;
+}
+.button>input:hover{
+	border: 1px solid #c6c6c6;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    color: #222;
+}
+#button1{
+	margin-left: 500px;
+}
+
+/*Footer content starts here*/
+.footer {
+	position: relative;
+	top: 172px;
+	line-height: 40px;
+	background-color: #f2f2f2;
+}
+.foot{
+	display: inline-block;
+	/*margin: 10px;*/
+	padding-left: 27px;
+}
+.foot>a{
+	text-decoration: none;
+	color:#666;
+	font-family: arial,sans-serif;
+	font-size: small;
+}
+.foot>a:hover{
+	text-decoration: underline;
+}
+#flt{
+	display: inline-block;
+	float: right;
+	margin-right: 20px;
+}
